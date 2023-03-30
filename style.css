@@ -60,7 +60,7 @@ li a {
   .profile_image{
     position: absolute;
     top: 70%;
-    left: 35%;
+    left: 45%;
   }
 
   .blog_title{
@@ -100,9 +100,11 @@ li a {
 }
 
 .blog_row{
-    content:"";
+    /* content:"";
     display: table;
-    clear: both;
+    clear: both; */
+    display: grid;
+    grid-template-columns: 30% 65%;
 }
 
 .blogImage{
